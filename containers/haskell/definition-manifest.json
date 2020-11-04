@@ -1,0 +1,20 @@
+{
+	"versions": ["8", "8.10", "8.10.2"],
+	"build": {
+		"latest": "true",
+		"rootDistro": "debian",
+		"tags": [
+			"haskell:${VERSION}"
+		]
+	},
+	"dependencies": {
+		"image": "haskell:${VERSION}",
+		"imageLink": "https://hub.docker.com/_/haskell",
+		"debian": [
+		],
+		"git": {
+		},
+		"manual": [
+		]
+	}
+}
